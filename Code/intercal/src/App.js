@@ -4,6 +4,7 @@ import './/styles/app.css'
 import Sidebar from './/Sidebar.jsx';
 import Dashboard from './/dashboard.jsx';
 import SearchBar from './SearchBar.jsx';
+import GraphWrapper from './GraphWrapper.jsx';
 
 function App() {
 

@@ -26,7 +26,7 @@ export default function Dashboard() {
   }
 
     let as = watched.map((fav) =>{
-      return <a class = 'favorite' href = '{}'>{fav.id}</a>
+      return <DataBox postId={fav} ></DataBox>;
     });
   return (
   <div className='dashboard'>
