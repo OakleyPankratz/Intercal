@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './/styles/styles.css';
 import './/styles/dashboard.css'
+import DataBox from './DataBox';
 
 
 export default function Dashboard() {
@@ -29,7 +30,7 @@ export default function Dashboard() {
     });
   return (
   <div className='dashboard'>
-    {}
+    {as}
   </div> 
   );
 }
